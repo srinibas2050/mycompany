@@ -1,0 +1,53 @@
+.productTitle {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.addCartBtn {
+  width: 100%;
+  background-color: black !important;
+  margin: 10px 0;
+}
+
+.customRadios {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.customRadio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 30px;
+  border: 2px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.customRadio:hover {
+  background-color: black !important;
+  color: #fff;
+}
+
+.customRadio.active {
+  background-color: black !important;
+  color: #fff;
+}
+
+.customRadio input[type="radio"] {
+  appearance: none;
+  margin: 0;
+}
+
+.customRadio input[type="radio"]:focus {
+  outline: none;
+}
+
+.customRadio input[type="radio"] + label {
+  margin-left: 5px;
+}
+
+.sizeGuide {
+  text-decoration: underline;
+}

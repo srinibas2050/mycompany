@@ -1,0 +1,15 @@
+.nav-tabs {
+  border: none !important;
+  font-family: "HelveticaNowText";
+}
+
+.nav-link {
+  color: #767676 !important;
+  font-weight: bold !important;
+  border: none !important;
+  padding: 5px 10px !important;
+}
+
+.nav-item .nav-link.active {
+  color: #000 !important;
+}

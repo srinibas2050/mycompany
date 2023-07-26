@@ -1,0 +1,9 @@
+.stickyTop {
+  position: sticky;
+  top: 0;
+}
+
+.leftSection,
+.rightSection {
+  height: 500px;
+}

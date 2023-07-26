@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "HelveticaNowText";
+  src: local("HelveticaNowText"),
+    url("./assets/font/HelveticaNowText-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.containerSection {
+  padding: 60px 0;
+}
+
+.card {
+  border: none;
+}

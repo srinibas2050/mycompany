@@ -1,0 +1,41 @@
+.colorPicker {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.colorOption {
+  border: 1px solid #e5e5e5;
+  position: relative;
+  margin-right: 5px;
+}
+
+.colorOption:hover {
+  border-color: #000;
+}
+.colorOption.active {
+  border-color: #000;
+}
+.colorOption input[type="radio"] {
+  appearance: none;
+  position: absolute;
+  margin: 0;
+}
+
+.colorOption input[type="radio"]:focus {
+  outline: none;
+}
+
+.colorOption input[type="radio"] + label {
+  margin-left: 5px;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 63px;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+}
